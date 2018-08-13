@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2F57B474212135000095C092 /* DOTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57B473212135000095C092 /* DOTView.swift */; };
+		2F57B476212136750095C092 /* DOTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57B475212136750095C092 /* DOTImageView.swift */; };
 		2F9B84DC21211E11009B69D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84DB21211E11009B69D1 /* AppDelegate.swift */; };
 		2F9B84DE21211E11009B69D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84DD21211E11009B69D1 /* ViewController.swift */; };
 		2F9B84E121211E11009B69D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F9B84DF21211E11009B69D1 /* Main.storyboard */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2F57B473212135000095C092 /* DOTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTView.swift; sourceTree = "<group>"; };
+		2F57B475212136750095C092 /* DOTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTImageView.swift; sourceTree = "<group>"; };
 		2F9B84D821211E11009B69D1 /* DOTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9B84DB21211E11009B69D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2F9B84DD21211E11009B69D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -132,6 +136,8 @@
 			isa = PBXGroup;
 			children = (
 				2F9B850A21211E3F009B69D1 /* DOTButton.swift */,
+				2F57B473212135000095C092 /* DOTView.swift */,
+				2F57B475212136750095C092 /* DOTImageView.swift */,
 			);
 			path = CoreUI;
 			sourceTree = "<group>";
@@ -269,7 +275,9 @@
 			files = (
 				2F9B84DE21211E11009B69D1 /* ViewController.swift in Sources */,
 				2F9B850B21211E3F009B69D1 /* DOTButton.swift in Sources */,
+				2F57B474212135000095C092 /* DOTView.swift in Sources */,
 				2F9B84DC21211E11009B69D1 /* AppDelegate.swift in Sources */,
+				2F57B476212136750095C092 /* DOTImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

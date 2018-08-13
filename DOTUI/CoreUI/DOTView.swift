@@ -1,5 +1,5 @@
 //
-//  DOTButton.swift
+//  DOTView.swift
 //  DOTUI
 //
 //  Created by Agus Cahyono on 13/08/18.
@@ -9,7 +9,7 @@
 import UIKit
 
 @IBDesignable
-class DOTButton: UIButton {
+class DOTView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
@@ -17,7 +17,7 @@ class DOTButton: UIButton {
     }
     
     
-    /// Set Corner Radius UIButton
+    /// Set Corner Radius UIView
     @IBInspectable var cornerRadius: CGFloat = 0 {
         didSet {
             refreshCorners(value: cornerRadius)
@@ -25,7 +25,7 @@ class DOTButton: UIButton {
     }
     
     
-    /// Set Border Color UIButton
+    /// Set Border Color UIView
     @IBInspectable var borderColor: UIColor = UIColor.clear {
         didSet {
             self.layer.borderColor = borderColor.cgColor
@@ -33,23 +33,14 @@ class DOTButton: UIButton {
     }
     
     
-    /// Set Border Width UIButton
+    /// Set Border Width UIView
     @IBInspectable var borderWidth: CGFloat = 0 {
         didSet {
             self.layer.borderWidth = borderWidth
         }
     }
     
-    
-    /// Set Image for UIButton
-    @IBInspectable var image: UIImage? {
-        didSet {
-            setImage(image!)
-        }
-    }
-    
-    
-    /// Set Shadow Height UIButton
+    /// Set Shadow Height UIView
     @IBInspectable var shadowHeight: CGFloat = 0 {
         didSet {
             self.addShadow(shadowColor, height: shadowHeight)
@@ -57,7 +48,7 @@ class DOTButton: UIButton {
     }
     
     
-    /// Set Shadow Color UIButton
+    /// Set Shadow Color UIView
     @IBInspectable var shadowColor: UIColor = UIColor.clear {
         didSet {
             self.addShadow(shadowColor, height: shadowHeight)
@@ -75,22 +66,11 @@ class DOTButton: UIButton {
     
     func sharedInit() {
         refreshCorners(value: cornerRadius)
-        setImage(image, for: .normal)
         addShadow(shadowColor, height: shadowHeight)
     }
     
     
-    /// Set image for button (optional)
-    ///
-    /// - Parameter image: image icon button
-    func setImage(_ image: UIImage) {
-        self.setImage(image, for: .normal)
-        self.imageView?.contentMode = .scaleAspectFit
-        self.imageEdgeInsets = UIEdgeInsets(top: 0, left: -20, bottom: 0, right: 0)
-    }
-    
-    
-    /// Shadow Button
+    /// Shadow UIView
     ///
     /// - Parameters:
     ///   - color: shadow color
