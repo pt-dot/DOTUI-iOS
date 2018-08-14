@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2DE029EBBC78588953385D9E /* Pods_DOTUIUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F6AC6AEF1F55A40656DD995F /* Pods_DOTUIUITests.framework */; };
+		2F301AD521227BE30056FB49 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F301AD221227BC00056FB49 /* Roboto-Medium.ttf */; };
+		2F301AD621227BE30056FB49 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F301AD421227BC10056FB49 /* Roboto-Regular.ttf */; };
+		2F301AD721227BE30056FB49 /* Roboto-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2F301AD321227BC10056FB49 /* Roboto-Thin.ttf */; };
 		2F57B474212135000095C092 /* DOTView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57B473212135000095C092 /* DOTView.swift */; };
 		2F57B476212136750095C092 /* DOTImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57B475212136750095C092 /* DOTImageView.swift */; };
 		2F57B47821213FB30095C092 /* DOTTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F57B47721213FB30095C092 /* DOTTextField.swift */; };
+		2F852AE02122830300F03EF4 /* PageAnimasiViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F852ADF2122830300F03EF4 /* PageAnimasiViewController.swift */; };
 		2F8E5637212182C000A1C92F /* DOTHeadlineText.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8E5636212182C000A1C92F /* DOTHeadlineText.swift */; };
 		2F9B84DC21211E11009B69D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84DB21211E11009B69D1 /* AppDelegate.swift */; };
 		2F9B84DE21211E11009B69D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84DD21211E11009B69D1 /* ViewController.swift */; };
@@ -19,6 +24,8 @@
 		2F9B84F121211E13009B69D1 /* DOTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84F021211E13009B69D1 /* DOTUITests.swift */; };
 		2F9B84FC21211E13009B69D1 /* DOTUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B84FB21211E13009B69D1 /* DOTUIUITests.swift */; };
 		2F9B850B21211E3F009B69D1 /* DOTButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F9B850A21211E3F009B69D1 /* DOTButton.swift */; };
+		6FF9E3E88344C16E2F3ED2BD /* Pods_DOTUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A0F48E5B06B1312771194C7 /* Pods_DOTUI.framework */; };
+		F52B630630952866B854D3D3 /* Pods_DOTUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C0954E52907786C2DD4FEF /* Pods_DOTUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,9 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B0F4F82EE32A1FA941D061E /* Pods-DOTUI.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUI.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUI/Pods-DOTUI.debug.xcconfig"; sourceTree = "<group>"; };
+		2F301AD221227BC00056FB49 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		2F301AD321227BC10056FB49 /* Roboto-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Thin.ttf"; sourceTree = "<group>"; };
+		2F301AD421227BC10056FB49 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Regular.ttf"; sourceTree = "<group>"; };
 		2F57B473212135000095C092 /* DOTView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTView.swift; sourceTree = "<group>"; };
 		2F57B475212136750095C092 /* DOTImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTImageView.swift; sourceTree = "<group>"; };
 		2F57B47721213FB30095C092 /* DOTTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTTextField.swift; sourceTree = "<group>"; };
+		2F852ADF2122830300F03EF4 /* PageAnimasiViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageAnimasiViewController.swift; sourceTree = "<group>"; };
 		2F8E5636212182C000A1C92F /* DOTHeadlineText.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTHeadlineText.swift; sourceTree = "<group>"; };
 		2F9B84D821211E11009B69D1 /* DOTUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DOTUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F9B84DB21211E11009B69D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,6 +69,14 @@
 		2F9B84FB21211E13009B69D1 /* DOTUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTUIUITests.swift; sourceTree = "<group>"; };
 		2F9B84FD21211E13009B69D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F9B850A21211E3F009B69D1 /* DOTButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DOTButton.swift; sourceTree = "<group>"; };
+		5A0F48E5B06B1312771194C7 /* Pods_DOTUI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOTUI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65D7A841303C852EE0488BDF /* Pods-DOTUI.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUI.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUI/Pods-DOTUI.release.xcconfig"; sourceTree = "<group>"; };
+		86C2E27AECEBF37BCBE1506E /* Pods-DOTUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUITests/Pods-DOTUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A8C0954E52907786C2DD4FEF /* Pods_DOTUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOTUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B94BA83B51FD7F7BAEEB0337 /* Pods-DOTUIUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUIUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUIUITests/Pods-DOTUIUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE4795B24521B36107402404 /* Pods-DOTUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUITests/Pods-DOTUITests.release.xcconfig"; sourceTree = "<group>"; };
+		EF9FE731FF8AD2415EEF3E01 /* Pods-DOTUIUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DOTUIUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DOTUIUITests/Pods-DOTUIUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F6AC6AEF1F55A40656DD995F /* Pods_DOTUIUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DOTUIUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6FF9E3E88344C16E2F3ED2BD /* Pods_DOTUI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -71,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F52B630630952866B854D3D3 /* Pods_DOTUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,12 +100,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DE029EBBC78588953385D9E /* Pods_DOTUIUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		273A2015BF852EBC81302FD7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5A0F48E5B06B1312771194C7 /* Pods_DOTUI.framework */,
+				A8C0954E52907786C2DD4FEF /* Pods_DOTUITests.framework */,
+				F6AC6AEF1F55A40656DD995F /* Pods_DOTUIUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F301AD121227BA50056FB49 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2F301AD221227BC00056FB49 /* Roboto-Medium.ttf */,
+				2F301AD421227BC10056FB49 /* Roboto-Regular.ttf */,
+				2F301AD321227BC10056FB49 /* Roboto-Thin.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
 		2F9B84CF21211E11009B69D1 = {
 			isa = PBXGroup;
 			children = (
@@ -91,6 +134,8 @@
 				2F9B84EF21211E13009B69D1 /* DOTUITests */,
 				2F9B84FA21211E13009B69D1 /* DOTUIUITests */,
 				2F9B84D921211E11009B69D1 /* Products */,
+				E32BBE280A9869F13C2265E2 /* Pods */,
+				273A2015BF852EBC81302FD7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,6 +159,7 @@
 				2F9B84E221211E13009B69D1 /* Assets.xcassets */,
 				2F9B84E421211E13009B69D1 /* LaunchScreen.storyboard */,
 				2F9B84E721211E13009B69D1 /* Info.plist */,
+				2F852ADF2122830300F03EF4 /* PageAnimasiViewController.swift */,
 			);
 			path = DOTUI;
 			sourceTree = "<group>";
@@ -139,6 +185,7 @@
 		2F9B850921211E34009B69D1 /* CoreUI */ = {
 			isa = PBXGroup;
 			children = (
+				2F301AD121227BA50056FB49 /* Fonts */,
 				2F9B850A21211E3F009B69D1 /* DOTButton.swift */,
 				2F57B473212135000095C092 /* DOTView.swift */,
 				2F57B475212136750095C092 /* DOTImageView.swift */,
@@ -148,6 +195,19 @@
 			path = CoreUI;
 			sourceTree = "<group>";
 		};
+		E32BBE280A9869F13C2265E2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1B0F4F82EE32A1FA941D061E /* Pods-DOTUI.debug.xcconfig */,
+				65D7A841303C852EE0488BDF /* Pods-DOTUI.release.xcconfig */,
+				86C2E27AECEBF37BCBE1506E /* Pods-DOTUITests.debug.xcconfig */,
+				CE4795B24521B36107402404 /* Pods-DOTUITests.release.xcconfig */,
+				EF9FE731FF8AD2415EEF3E01 /* Pods-DOTUIUITests.debug.xcconfig */,
+				B94BA83B51FD7F7BAEEB0337 /* Pods-DOTUIUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -155,9 +215,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F9B850021211E13009B69D1 /* Build configuration list for PBXNativeTarget "DOTUI" */;
 			buildPhases = (
+				1CB58DFC88802EA738837B64 /* [CP] Check Pods Manifest.lock */,
 				2F9B84D421211E11009B69D1 /* Sources */,
 				2F9B84D521211E11009B69D1 /* Frameworks */,
 				2F9B84D621211E11009B69D1 /* Resources */,
+				EBBA8062389AD844BD890CD6 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -172,6 +234,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F9B850321211E13009B69D1 /* Build configuration list for PBXNativeTarget "DOTUITests" */;
 			buildPhases = (
+				EF3519033342EBA6978899A3 /* [CP] Check Pods Manifest.lock */,
 				2F9B84E821211E13009B69D1 /* Sources */,
 				2F9B84E921211E13009B69D1 /* Frameworks */,
 				2F9B84EA21211E13009B69D1 /* Resources */,
@@ -190,6 +253,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2F9B850621211E13009B69D1 /* Build configuration list for PBXNativeTarget "DOTUIUITests" */;
 			buildPhases = (
+				1C054CA5085182F20D136EDE /* [CP] Check Pods Manifest.lock */,
 				2F9B84F321211E13009B69D1 /* Sources */,
 				2F9B84F421211E13009B69D1 /* Frameworks */,
 				2F9B84F521211E13009B69D1 /* Resources */,
@@ -252,6 +316,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F301AD521227BE30056FB49 /* Roboto-Medium.ttf in Resources */,
+				2F301AD621227BE30056FB49 /* Roboto-Regular.ttf in Resources */,
+				2F301AD721227BE30056FB49 /* Roboto-Thin.ttf in Resources */,
 				2F9B84E621211E13009B69D1 /* LaunchScreen.storyboard in Resources */,
 				2F9B84E321211E13009B69D1 /* Assets.xcassets in Resources */,
 				2F9B84E121211E11009B69D1 /* Main.storyboard in Resources */,
@@ -274,11 +341,87 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1C054CA5085182F20D136EDE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DOTUIUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1CB58DFC88802EA738837B64 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DOTUI-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBBA8062389AD844BD890CD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DOTUI/Pods-DOTUI-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Spring/Spring.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Spring.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DOTUI/Pods-DOTUI-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EF3519033342EBA6978899A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DOTUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		2F9B84D421211E11009B69D1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F852AE02122830300F03EF4 /* PageAnimasiViewController.swift in Sources */,
 				2F8E5637212182C000A1C92F /* DOTHeadlineText.swift in Sources */,
 				2F9B84DE21211E11009B69D1 /* ViewController.swift in Sources */,
 				2F9B850B21211E3F009B69D1 /* DOTButton.swift in Sources */,
@@ -456,6 +599,7 @@
 		};
 		2F9B850121211E13009B69D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B0F4F82EE32A1FA941D061E /* Pods-DOTUI.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -474,6 +618,7 @@
 		};
 		2F9B850221211E13009B69D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65D7A841303C852EE0488BDF /* Pods-DOTUI.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +637,7 @@
 		};
 		2F9B850421211E13009B69D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86C2E27AECEBF37BCBE1506E /* Pods-DOTUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -513,6 +659,7 @@
 		};
 		2F9B850521211E13009B69D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CE4795B24521B36107402404 /* Pods-DOTUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -534,6 +681,7 @@
 		};
 		2F9B850721211E13009B69D1 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EF9FE731FF8AD2415EEF3E01 /* Pods-DOTUIUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -554,6 +702,7 @@
 		};
 		2F9B850821211E13009B69D1 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B94BA83B51FD7F7BAEEB0337 /* Pods-DOTUIUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
