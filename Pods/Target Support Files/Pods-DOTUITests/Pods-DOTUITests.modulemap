@@ -1,6 +1,0 @@
-framework module Pods_DOTUITests {
-  umbrella header "Pods-DOTUITests-umbrella.h"
-
-  export *
-  module * { export * }
-}
